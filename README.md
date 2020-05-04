@@ -11,4 +11,4 @@ Enjoy!
 
 Link to source video and code:
 * [Coding Challenge #31 on YouTube](https://www.youtube.com/watch?v=cXgA1d_E-jY)
-* [Play the og game here](https://bennettnorth.github.io/)
+* [Play the original game here](https://github.com/CodingTrain/Flappy-Bird-Clone)
