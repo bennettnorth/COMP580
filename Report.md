@@ -17,9 +17,9 @@ p5.js is a JavaScript library for creative coding, with a focus on making coding
 **How to Build and Deploy it:** 
 
 
--Follow this link to the source code for our game: https://github.com/CodingTrain/Flappy-Bird-Clone
--Follow this link to the tutorial on which our game is loosely based: https://www.youtube.com/watch?v=cXgA1d_E-jY
--Follow this link to deploy our game: https://bennettnorth.github.io/ 
+*Follow this link to the source code for our game: https://github.com/CodingTrain/Flappy-Bird-Clone
+*Follow this link to the tutorial on which our game is loosely based: https://www.youtube.com/watch?v=cXgA1d_E-jY
+*Follow this link to deploy our game: https://bennettnorth.github.io/ 
 
 **Problems Encountered:**
 Our first obstacle about p5.js, but it was pretty intuitive once we got things rolling
