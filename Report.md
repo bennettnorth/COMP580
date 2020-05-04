@@ -1,4 +1,4 @@
-Welcome to our COMP 580 Project - Mathy Bird. 
+**Welcome to our COMP 580 Project - Mathy Bird.** 
 
 This game is a version of Flappy Bird that has been modified so the bird flaps through the pipes by giving the correct answer to simple math questions. Users advance and accrue points by selecting the right answer to the given math question before the bird passes through the selected number of pipes. 
 
@@ -7,6 +7,7 @@ We constructed this game with the intention of making Flappy Bird accessible for
 The game is based on the popular tutorial filmed by [Coding Challenge #31: Flappy Bird](https://www.youtube.com/watch?v=cXgA1d_E-jY), and our game, specifically, is adapted from [The Coding Train's Flappy Bird Clone](https://github.com/CodingTrain/Flappy-Bird-Clone).  We did all of our programming in JavaScript, using Visual Studio Code.
 
 **Libraries Used:**
+
 Mathy Bird makes use of jQuery and p5.js JavaScript libraries.
 
 jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is free, open-source software, and available [here](https://jquery.com/). 
