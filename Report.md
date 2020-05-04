@@ -4,13 +4,13 @@ This game is a version of Flappy Bird that has been modified so the bird flaps t
 
 We constructed this game with the intention of making Flappy Bird accessible for people with motor impairments.
 
-The game is based on the popular tutorial filmed by [Coding Challenge #31: Flappy Bird](https://www.youtube.com/watch?v=cXgA1d_E-jY), and our game, specifically, is adapted from [The Coding Train's Flappy Bird Clone](https://github.com/CodingTrain/Flappy-Bird-Clone).  We did all of our programming in JavaScript, using Visual Studio Code.
+The game is based on the popular tutorial filmed by [Coding Challenge #31: Flappy Bird](https://www.youtube.com/watch?v=cXgA1d_E-jY) and is adapted from [The Coding Train's Flappy Bird Clone](https://github.com/CodingTrain/Flappy-Bird-Clone).  We did all of our programming in JavaScript, using Visual Studio Code.
 
 **Libraries Used:**
 
 Mathy Bird makes use of jQuery and p5.js JavaScript libraries.
 
-jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is free, open-source software, and available [here](https://jquery.com/). 
+jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is free, open-source, and available [here](https://jquery.com/). 
 
 p5.js is a JavaScript library for creative coding, with a focus on making coding accessible and inclusive for artists, designers, educators, and beginners. It is free, open-source, and available [here](https://p5js.org/download/).
 
@@ -23,19 +23,15 @@ p5.js is a JavaScript library for creative coding, with a focus on making coding
 
 **Problems Encountered:**
 
-Our first obstacle about p5.js, but it was pretty intuitive once we got things rolling
-Figuring out how we were going to make the bird fly on its own
-We had to simplify the game by keeping the pipes at a constant height
-Wanted to do different types of math questions and couldn’t find a database of premade questions, so we had to generate our own
-To resolve the issues we faced with making our own questions, we had to narrow the scope of the range and complexity of arithmetic questions we asked
-Have to avoid zeros → they made everything more difficult
-Used some hacky methods to create answer choices
-Fractions were a headache so we avoided generating any questions with decimal products
-We did not realize p5.js was not compatible with tabbing and entering to select buttons on a page, so we had to come up with some creative ways around this limitation.
-Another one of our goals was to add customization options because we thought we could easily swap png files in our game
-Turns out, wasn’t so easy because we need specifically sized files in order for it to look good (not pixelated)
-Could only get the pipes and bird to look good, so we left users with only a Baby Yoda option (we figured it would be the most appreciated)
-However, I couldn't figure out how to get the bird file to change immediately (sometimes takes starting a new game twice)
+The first obsticle we encountered was learning to use the p5.js library with which our source code had been created. No members of our group had any experience with p5.js, so we had to learn about its foundational logic, the design features it provides, and its interaction with the DOM. However, it turned out to be a very intuitive library to work with once we became familiar with it. 
+
+We encountered problems when tryign to figuring out how to make the bird fly without a user continuously pressing the SPACEBAR. It was simple to remove the need for user input, but took a little time to create a a flight path for the bird. Eventually, we were able to simplify this task by keeping the pipes at a constant height and ensuring the bird did not pass certain boundaries unless the user failed to answer a question in the provided amount of time or answered a question incorrectly.
+
+There were a number of difficulties surrounding the implementation of questions for the user. Originally we had hoped to find a database with different types of premade questions, but we were unable to do so. Instead, we were forced to generate our own questions by creating a formula that could be filled in with random numbers and arithmetic operations to generate random arithmetic questions. Generating our questions in this way required us to account for certain problem cases.  For example, we realized that we would need to narrow the range and complexity of the questions we asked, because failing to do so would prevent the user from answering the question quickly enough.  We also realized that in cases of division and, more surprisingly, when generating random answers to our questions, we would have to avoid using zeros, because doing so often led to indeterminate and/or wrong answers. Fianlly, we made sure to avoid fractions in division cases in order to save the user from having to calculate decimal quotients.
+
+We also did not realize p5.js was not compatible with using the TAB and ENTER keys to select buttons on a page.  We used jQuery to handle user cases that did not include mouse presses and integrated the to the p5.js and jQuery libraries as seemlessly as possible in our code. 
+
+Lastly, we had hoped to add different customization options that would allow users to choose between different themes for the game (e.g. having a Baby Yoda hop between lightsabers).  We assumed that by swapping png files in our game, we coudl easily make this happen.  However, it turns out the pictures used to create the background and pipes required specifically sized files in order to avoid being pixelated.  We were also unable to get the bird file to change immediately upon choosing a theme.  Each time a user chose a theme, the game had to be restared twice before the image of the bird was replaced with the correct image. In light of these difficulties, we decided to do away with the ability to choose particular themes.
  
 **Future work:**
 
