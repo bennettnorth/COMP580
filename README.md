@@ -1,4 +1,4 @@
-# Mathy Bird - A Flappy Bird clone
+# Mathy Bird - A Flappy Bird Clone
 
 Welcome to our COMP 580 Project - Mathy Bird. This game is a verision of flappy bird that has been modified so the bird flaps through the pipes by giving the correct answer to simple math questions. We constructed this game so it can be played by people with motor impariments. 
 
