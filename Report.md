@@ -1,27 +1,28 @@
 Welcome to our COMP 580 Project - Mathy Bird. 
 
-This game is a version of flappy bird that has been modified so the bird flaps through the pipes by giving the correct answer to simple math questions. 
+This game is a version of Flappy Bird that has been modified so the bird flaps through the pipes by giving the correct answer to simple math questions. Users advance and accrue points by selecting the right answer to the given math question before the bird passes through the selected number of pipes. 
 
-We constructed this game so it can be played by people with motor impairments.
+We constructed this game with the intention of making Flappy Bird accessible for people with motor impairments.
 
-The game is simple: Select the right answer to the math question before the bird passes through the selected number of pipes.
-Technologies 
+The game is based on the popular tutorial filmed by [Coding Challenge #31: Flappy Bird](https://www.youtube.com/watch?v=cXgA1d_E-jY), and our game, specifically, is adapted from [The Coding Train's Flappy Bird Clone](https://github.com/CodingTrain/Flappy-Bird-Clone).  We did all of our programming in JavaScript, using Visual Studio Code.
 
-The game is based off the popular tutorial filmed by Coding Challenge #31: Flappy Bird 
+**Libraries Used:**
+Mathy Bird makes use of jQuery and p5.js JavaScript libraries.
 
-Libraries Used 
-jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.
-It is free, open-source software using the permissive MIT License. 
+jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is free, open-source software, and available [here](https://jquery.com/). 
 
-p5.js is a JavaScript library for creative coding, with a focus on making coding accessible and inclusive for artists, designers, educators, beginners, and anyone else!
-p5.js is free and open-source because software, and the tools to learn it, should be accessible to everyone.
+p5.js is a JavaScript library for creative coding, with a focus on making coding accessible and inclusive for artists, designers, educators, and beginners. It is free, open-source, and available [here](https://p5js.org/download/).
 
 
-How to Build and Deploy it 
-Follow the link here: https://bennettnorth.github.io/ 
+**How to Build and Deploy it:** 
 
-Problems Encountered
-We had to learn somethings about p5.js, but it was pretty intuitive once we got things rolling
+
+-Follow this link to the source code for our game: https://github.com/CodingTrain/Flappy-Bird-Clone
+-Follow this link to the tutorial on which our game is loosely based: https://www.youtube.com/watch?v=cXgA1d_E-jY
+-Follow this link to deploy our game: https://bennettnorth.github.io/ 
+
+**Problems Encountered:**
+Our first obstacle about p5.js, but it was pretty intuitive once we got things rolling
 Figuring out how we were going to make the bird fly on its own
 We had to simplify the game by keeping the pipes at a constant height
 Wanted to do different types of math questions and couldn’t find a database of premade questions, so we had to generate our own
@@ -35,7 +36,7 @@ Turns out, wasn’t so easy because we need specifically sized files in order fo
 Could only get the pipes and bird to look good, so we left users with only a Baby Yoda option (we figured it would be the most appreciated)
 However, I couldn't figure out how to get the bird file to change immediately (sometimes takes starting a new game twice)
  
-Future work.
+**Future work:**
 We have a great framework to add more accessibility options
 We could spend time adding sound and screen reader compatibility for those with visual impairments
 Add different genres of math questions like we originally hoped to do -- for now, it is perfect for our target user
